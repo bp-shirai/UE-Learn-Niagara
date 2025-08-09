@@ -54,3 +54,5 @@ Session.vim
 Plugins/*/Binaries/*
 Plugins/*/Intermediate/*
 !*.md
+
+!/LandscapeMaps/**

@@ -19,5 +19,20 @@
 * Slope Blend/Height Blend/Auto Foliage/Run Time Virtual Texture
 * Dot Product/Vertex Normal/Texture Bombing/Triplanar Projection and more
 * Create an auto landscape material from scratch
-  Make a Landscape In Gaea
-  https://quadspinner.com/download
+* Make a Landscape In Gaea  https://quadspinner.com/download
+
+
+
+Performance Optimization For Foliage
+
+DefaultEngine.ini
+
+
+\[/Script/Engine.RendererSettings]
+
+r.Shadow.Virtual.NonNanite.IncludeInCoarsePage=0
+
+r.Shadow.Virtual.UseFarShadowCulling=0
+
+
+

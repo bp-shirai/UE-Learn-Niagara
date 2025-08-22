@@ -1,6 +1,6 @@
 ### Learn basic Niagara operations
 
-* UnrealEngine version 5.6.0
+* UnrealEngine version 5.6.1
 * Create different master materials for VFX
 * Create multiple environment FX like dandelion, rain, water fall and etc
 * Create attacking FX like energy strike, lightning hit and projectiles
@@ -28,11 +28,10 @@ Performance Optimization For Foliage
 DefaultEngine.ini
 
 
+
 \[/Script/Engine.RendererSettings]
 
 r.Shadow.Virtual.NonNanite.IncludeInCoarsePage=0
 
 r.Shadow.Virtual.UseFarShadowCulling=0
-
-
 
